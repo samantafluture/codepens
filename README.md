@@ -6,6 +6,8 @@ I built this portfolio while following a 10-day video course from [Alura](https:
 
 It was a great opportunity to refresh my knowledge of rogramming logic and to experiment with creative ideias and styles.
 
-![screenshot](https://github.com/samantafluture/codepens/blob/main/screenshot.png?raw=true)
+**Visit the site [here](https://samantafluture.github.io/codepens/).** 
+
+![gif](https://github.com/samantafluture/codepens/blob/main/screenshot.png?raw=true)
 
 
