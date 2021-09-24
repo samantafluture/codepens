@@ -1,6 +1,6 @@
 # Portfolio of Codepens
 
-A simple page built with HTML, CSS and pure JavaScript to showcase my Codepens.
+A simple page built with HTML, CSS and pure JavaScript to showcase my [Codepens](https://codepen.io/samantafluture).
 
 I've built this portfolio while following a 10-day video course from [Alura](https://www.alura.com.br/), called **#imersaodev**.
 
