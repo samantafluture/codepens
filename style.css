@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600&display=swap");
+
+:root {
+  --bg-light: #ffffff;
+  --color-light: #24292f;
+  --border-light: #d0d7de;
+  --title-light: #1e69da;
+  --subtitle-light: #7d8995;
+  --hover-light: #ff87ab;
+  --btn-light: #f6f8fa;
+  --btn-hover-light: #edf0f2;
+
+  --bg-dark: #22272e;
+  --color-dark: #adbac7;
+  --border-dark: #444c56;
+  --title-dark: #539bf5;
+  --subtitle-dark: #768390;
+  --btn-dark: #373e47;
+  --btn-font-dark: #adbac7;
+  --btn-hover-dark: #404852;
+}
+
+body {
+  background-color: var(--bg-light);
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  background: var(--bg-light);
+  border-radius: 6px;
+  border: 1px solid var(--border-light);
+  color: var(--color-light);
+  margin: 64px;
+  padding: 64px;
+  min-width: 375px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-photo {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile-description {
+  align-self: center;
+  margin-left: 16px;
+}
+
+.profile-description h1 {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-description h3 {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0;
+  padding-top: 10px;
+  color: var(--subtitle-light);
+}
+
+i {
+  margin-right: 8px;
+}
+
+.social-media {
+  display: flex;
+  align-items: baseline;
+}
+
+.social-media i {
+  color: var(--title-light);
+}
+
+.social-media i:hover {
+  color: var(--hover-light);
+}
+
+.theme button {
+  align-self: flex-end;
+  font-size: 28px;
+  font-weight: 300;
+  background-color: transparent;
+  color: var(--color-light);
+  border: none;
+  cursor: pointer;
+}
+
+.theme button i {
+  margin: 0;
+}
+
+ul,
+li {
+  padding: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+}
+
+.projects-title {
+  list-style: none;
+  font-weight: 500;
+  font-size: 28px;
+  color: var(--color-light);
+  padding: 0;
+  margin: 0;
+}
+
+.projects-item {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 32px;
+  padding: 40px;
+  padding-top: 8px;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+}
+
+.projects-item a {
+  text-decoration: none;
+  color: var(--title-light);
+}
+
+.projects-item a:hover {
+  color: var(--hover-light);
+}
+
+.projects-item i {
+  color: var(--hover-light);
+}
+
+/* dark theme mode */
+
+.dark {
+  background-color: var(--bg-dark);
+}
+
+.dark .container {
+  background: var(--bg-dark);
+  border: 1px solid var(--border-dark);
+  color: var(--color-dark);
+}
+
+.dark .profile-description h3 {
+  color: var(--subtitle-dark);
+}
+
+.dark .theme button {
+  color: var(--color-dark);
+}
+
+.dark .projects-title {
+  color: var(--color-dark);
+}
+
+.dark .projects-item {
+  border: 1px solid var(--border-dark);
+}
+
+.dark .projects-item a {
+  color: var(--title-dark);
+}
+
+.dark .projects-item a:hover {
+  color: var(--hover-light);
+}
+
+.dark .social-media i {
+  color: var(--title-dark);
+}
+
+.dark .social-media i:hover {
+  color: var(--hover-light);
+}
