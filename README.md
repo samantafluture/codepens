@@ -8,6 +8,6 @@ It was a great opportunity to refresh my knowledge of rogramming logic and to ex
 
 **Visit the site [here](https://samantafluture.github.io/codepens/).** 
 
-![gif](https://github.com/samantafluture/codepens/blob/main/screenshot.png?raw=true)
+![gif](https://github.com/samantafluture/codepens/blob/main/codepens.gif?raw=true)
 
 
